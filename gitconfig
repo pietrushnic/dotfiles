@@ -38,3 +38,5 @@
 [core]
 	pager = less -F -X
 	autocrlf = input
+[github]
+	user = pietrushnic
