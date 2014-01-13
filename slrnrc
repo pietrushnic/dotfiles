@@ -90,7 +90,7 @@ set generate_message_id 0
 % Set your favourite editor.  Use %s for the file name and %d for the line
 % where the cursor should be placed (usually at the beginning of the body).
 %set editor_command "jed '%s' -g %d -tmp"
-%set editor_command "vim -c %d '%s'"
+set editor_command "vim -c %d '%s' -c '+set tw=72'"
 
 % You can have separate commands for editing posts, mail, and score files.
 %set mail_editor_command "jed '%s' -g %d -tmp --mail-mode"
