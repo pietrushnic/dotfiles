@@ -40,3 +40,9 @@
 	autocrlf = input
 [github]
 	user = pietrushnic
+[pack]
+	windowMemory = 100m
+	SizeLimit = 100m
+	threads = 1
+[sendemail]
+	smtpserver = /usr/bin/msmtp
