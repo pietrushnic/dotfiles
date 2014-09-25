@@ -15,6 +15,7 @@
 	# Show files ignored by git:
 	ign = ls-files -o -i --exclude-standard
 	dt = difftool
+	tags = for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags
 [user]
 	name = Piotr Król
 	email = piotr.krol@3mdeb.com
