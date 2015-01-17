@@ -10,8 +10,10 @@ PID=$!
 # We also need to wait for the process to sawm
 # a window.
 
-sleep 1
-WID=$(wmctrl -lp | grep $PID | cut "-d " -f1)
+while [ "$WID" = "" ]; do
+	WID=$(wmctrl -lp | grep $PID | cut "-d " -f1)
+	sleep 1
+done
 
 # Set the size and location of the window
 # See man wmctrl for more info
