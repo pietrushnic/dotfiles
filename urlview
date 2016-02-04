@@ -1,2 +1,1 @@
-REGEXP (((http|https|ftp|gopher)|mailto):(//)?[^ <>"\t]*|(www|ftp)[0-9]?\.[-a-z0-9.]+)[^ .,;\t\n\r<">\):]?[^, <>"\t]*[^ .,;\t\n\r<">\):]
-COMMAND chromium %s
+COMMAND /home/pietrushnic/src/dotfiles/url_handler.sh %s
