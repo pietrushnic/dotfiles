@@ -50,3 +50,5 @@
 	threads = 1
 [sendemail]
 	smtpserver = /usr/bin/msmtp
+[credential]
+	helper = cache --timeout=3600
