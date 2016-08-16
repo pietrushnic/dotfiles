@@ -52,3 +52,5 @@
 	smtpserver = /usr/bin/msmtp
 [credential]
 	helper = cache --timeout=3600
+[merge]
+	ff = false
