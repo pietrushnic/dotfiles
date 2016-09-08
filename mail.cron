@@ -1,0 +1,3 @@
+#!/bin/bash
+notmuch new| /usr/bin/logger
+/home/pietrushnic/bin/afew -t -vvv -n | /usr/bin/logger
