@@ -13,8 +13,8 @@ charset config "utf-8"
 
 % The "From:" header will be generated from the following three variables.
 % With the example settings, it would read "John Doe <john@doe.com>"
-set username "pietrushnic"
-set hostname "gmail.com"
+set username "piotr.krol"
+set hostname "3mdeb.com"
 set realname "Piotr Król"
 
 % Set this if you want replies to your articles to go to a address different
@@ -25,7 +25,7 @@ set realname "Piotr Król"
 %set organization "Doe inc."
 
 % The name of your signature file.  If "", no signature is added.
-%set signature ".signature"
+set signature "/home/pietrushnic/src/mutt-conf/accounts/3mdeb.sig"
 
 %
 %% 2. Server specific settings
@@ -115,7 +115,7 @@ set editor_command "vim -c %d '%s' -c 'set tw=72'"
 
 % In case you want to use another mailer than sendmail.  Be sure that it
 % implements the same interface, though!
-set sendmail_command "/usr/bin/msmtp -t -a pietrushnic@gmail.com"
+set sendmail_command "/usr/bin/msmtp -t -a piotr.krol@3mdeb.com"
 
 % Set this to one if you want the "From:" header in e-mails to be generated
 % from the hostname / username / realname variable.
