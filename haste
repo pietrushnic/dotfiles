@@ -1,0 +1,1 @@
+haste() { a=$(cat); curl -X POST -s -d "$a" http://81.95.197.197:7777/documents | awk -F '"' '{print "http://81.95.197.197:7777/"$4}'; }
