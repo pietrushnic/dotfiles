@@ -1,0 +1,8 @@
+*.dec
+*.dsc.inc
+*.dsc
+*.fdf
+*.inf
+*.h
+*.vfr
+*.c
