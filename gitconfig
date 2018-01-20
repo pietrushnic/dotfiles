@@ -40,7 +40,7 @@
 	tool = vimdiff
 [core]
 	abbrev = 12
-	pager = less -F -X
+	pager = less -R
 	autocrlf = input
 [github]
 	user = pietrushnic
