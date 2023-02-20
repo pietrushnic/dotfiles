@@ -21,7 +21,8 @@
 [user]
 	name = Piotr Król
 	email = piotr.krol@3mdeb.com
-	signingkey = B2EE71E967AA9E4C
+  # signingkey = B2EE71E967AA9E4C
+  signingkey = CDF2F7FB503777C7
 [color]
 	ui = auto
 [color "branch"]
